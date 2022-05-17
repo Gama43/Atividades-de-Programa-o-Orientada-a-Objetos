@@ -7,40 +7,40 @@ class Locador:
 
     @property
     def cpf(self):
-      if isinstance(self.__cpf, int): 
-        return self.__cpf
+        if isinstance(self.__cpf, int):
+            return self.__cpf
 
     @cpf.setter
     def cpf(self, cpf):
-      if isinstance(self.__cpf, int): 
-        self.__cpf = cpf
+        if isinstance(cpf, int):
+            self.__cpf = cpf
 
     @property
     def nome(self):
-      if isinstance(self.__nome, str): 
-        return self.__nome
+        if isinstance(self.__nome, str):
+            return self.__nome
 
     @nome.setter
     def nome(self, nome):
-      if isinstance(self.__nome, str): 
-        self.__nome = nome
+        if isinstance(nome, str):
+            self.__nome = nome
 
     @property
     def telefone(self):
-      if isinstance(self.__telefone, int): 
-        return self.__telefone
+        if isinstance(self.__telefone, int):
+            return self.__telefone
 
     @telefone.setter
     def telefone(self, telefone):
-      if isinstance(self.__telefone, int): 
-        self.__telefone = telefone
+        if isinstance(telefone, int):
+            self.__telefone = telefone
 
     @property
     def endereco(self):
-      if isinstance(self.__endereco, str): 
-        return self.__endereco
+        if isinstance(self.__endereco, str):
+            return self.__endereco
 
     @endereco.setter
     def endereco(self, endereco):
-      if isinstance(self.__endereco, str): 
-        self.__endereco= endereco
+        if isinstance(endereco, str):
+            self.__endereco = endereco
